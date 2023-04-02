@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-<div class="container">
-<h1>On-site Additions Client Information Form</h1>
+<div class="container pt-3 pb-3 rounded">
+<h1 class="fs-3 text-center m-5 p-2">On-site Additions Client Information Form</h1>
     <form class="row g-3" action="mailto:smanningsn@gmail.com" method="post">
       <div class="col-md-3">
         <label for="conferenceName">Name of Conference</label>
@@ -71,12 +71,13 @@
         />
       </div>
       <div class="col-md-4">
-        <label for="onsiteContact">On-Site Contact Name & Number</label>
+        <label for="onsiteContact" class="text-break">On-Site Contact Info</label>
         <input
           type="text"
           class="form-control"
           id="onsiteContact"
           name="onsiteContact"
+	  placeholder="Jane Doe (555) 555-5555"
           required
         />
       </div>
@@ -193,7 +194,7 @@
         />
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary" id="submitBtn">
+        <button type="submit" class="btn btn-primary mb-4" id="submitBtn">
           Submit
         </button>
       </div>
