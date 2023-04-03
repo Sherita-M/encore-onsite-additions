@@ -14,12 +14,21 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.successPage {
+	min-height: 0vh;
+	background-color: #fff;
+}
 
 .container {
 	background-color: #fff;
 	
 	/* border-radius: 1rem;
 	box-shadow: 3 */
+}
+
+.container-2 {
+	background-color: #fff;
+
 }
 
 img {
